@@ -17,12 +17,13 @@
     margin-top: 5% !important ;
     color: aliceblue;
     letter-spacing: 10% !important ;
-    font-size: 400%;
+    font-size: 600%;
 }
 .box{
+    border: red 1px solid;
     width: 80% ;
     min-width: 40% ;
-    height: 50%;
+    height: 175px;
     min-height: 25% ;
     background-color: white;
     border-radius: 12px;
@@ -32,29 +33,39 @@
     background-color: rgb(255, 183, 141);
     font-weight: bolder;
     border-color: none !important;
-    width:18% !important;
+    /* width:18% !important; */
 }
-.i input {
+.is input {
+        
         border: none !important;
         border-radius: 8px;   
         width: 65%;
         min-width: 35%;
         padding: 1%;
-        padding-left: 5%;
+        padding-left: 7%;
         background-color: rgb(245, 245, 245);
         outline: none;
         background-image: url(./images/Iconloc.png);
         background-repeat: no-repeat;
         background-position-y:7px ;
         background-position-x:10px ;
-    }
+        /* }
+        .i1{
+            position: relative;
+            height: 3%;
+        }
+        .i {
+            position: absolute;
+            left: 17.8%
+            bottom:1% */
+    
+        }
     .fb{
         outline: none !important;
         background-color: red !important;
         color: white !important;
-        width: 20% !important;
-        height:10%;
-        margin-left: 1%;
-    
+        width: 13vh;
+        height: 5vh ;
+        
 
     }
