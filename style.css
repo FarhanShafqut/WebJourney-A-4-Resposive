@@ -17,7 +17,7 @@
     margin-top: 5% !important ;
     color: aliceblue;
     letter-spacing: 10% !important ;
-    font-size: 600%;
+    font-size: 500%;
 }
 .box{
     border: red 1px solid;
@@ -34,6 +34,7 @@
     font-weight: bolder;
     border-color: none !important;
     /* width:18% !important; */
+    border: none;
 }
 .is input {
         
@@ -66,6 +67,55 @@
         color: white !important;
         width: 13vh;
         height: 5vh ;
-        
-
+            
     }
+    .row-card-slider {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+      }
+      
+      .card {
+        flex: 0 0 auto;
+        width: 300px;
+        margin-right: 10px;
+      }
+      
+      @media (max-width: 767px) {
+        .card {
+          width: 100%;
+          margin-right: 0;
+        }
+      }
+      .te{
+        background-color: aqua;
+        width: 140px;
+        height: 40px;
+        padding-left: 10%;
+        padding-top: 10%;
+        line-height: 150%;
+      }
+      .bt1{
+        color: rgba(241,114,40,255);
+        background-color: rgba(241, 114, 40,0.2);
+        font-weight: bolder;
+        border-color: none !important;
+        /* width:18% !important; */
+        color: rgb(255, 78, 78);
+      }
+      .bt2{
+        color: rgba(241,114,40,255);
+        background-color: rgba(121, 185, 60, 0.2);
+        font-weight: bolder;
+        border-color: none !important;
+        /* width:18% !important; */
+        color: rgb(121, 185, 60);
+      }
+      .bt3{
+        color: rgba(241,114,40,255);
+        background-color: rgba(255, 92, 42, 0.896);
+        font-weight: bolder;
+        border-color: none !important;
+        /* width:18% !important; */
+        color: white;
+      }
